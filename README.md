@@ -14,6 +14,29 @@ Mendukung custom alias, proteksi password, dan penyimpanan efisien menggunakan *
 - 🌍 Bisa digunakan sebagai self-hosted redirector, anti-expired
 
 ---
+
+## 🛠️ Setup KV (Key-Value Storage)
+
+Agar URL Shortener ini bekerja dengan baik, Anda perlu menyiapkan KV namespace bernama links.
+
+1. Buat KV namespace baru:
+
+Masuk ke dashboard **Cloudflare → Workers → KV → Create Namespace**
+
+Nama: **links**
+
+
+
+2. Binding KV ke Worker:
+
+Buka Worker **Settings > KV Namespace Bindings**
+
+Tambahkan binding baru:
+
+Variable name: **LINKS**
+
+KV namespace: pilih links yang telah Anda buat
+
 ## 📄 License
 
 MIT License  
