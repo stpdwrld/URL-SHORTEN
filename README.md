@@ -7,7 +7,7 @@ Mendukung custom alias, proteksi password, dan penyimpanan efisien menggunakan *
 
 ## 🚀 Fitur
 
-- ✂️ Buat shortlink dengan alias custom (contoh: `your.site/ajg123`)
+- ✂️ Buat shortlink dengan alias custom (contoh: `your.site/stupidworld`)
 - 🔐 Opsi proteksi sandi (password)
 - ⚡ Cepat dan tanpa database, cocok untuk kebutuhan pribadi atau publik
 - ☁️ Penyimpanan di **Cloudflare KV**
